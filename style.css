@@ -52,7 +52,7 @@ button.io:hover{
     background-color: rgba(92, 201, 78, 0.336);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     body {
         margin-left: 10px;
         margin-right: 10px;
