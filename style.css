@@ -1,3 +1,5 @@
+
+
 * {font-family: Arial, Helvetica, sans-serif;}
 div.thing {
     background: linear-gradient(
@@ -48,4 +50,32 @@ button.io:hover{
 }
 ::selection{
     background-color: rgba(92, 201, 78, 0.336);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        background-size: auto, contain; 
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    div.thing {
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px; 
+    }
+
+    button.io {
+        min-width: 120px; 
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    button.io:hover {
+        box-shadow: 0 0 0 2px;
+    }
 }
